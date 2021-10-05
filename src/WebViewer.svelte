@@ -11,6 +11,7 @@
 	WebViewer({
       path: '/lib',
 			initialDoc: '/files/demo.pdf',
+			licenseKey: 'VMeLR5MsW5lX3X9YfqQF',
 		}, ele).then(instance => {
 			dispatch('ready', {
 				instance
